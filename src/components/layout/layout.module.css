@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
+  width: calc(100% - 40%);
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  height: 90vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
