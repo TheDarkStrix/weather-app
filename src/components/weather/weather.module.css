@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+}
+
+.temperature {
+  font-weight: 500;
+  margin-left: 0.3em;
+}
+
+.temp {
+  font-size: 2em;
+  color: white;
+  font-weight: 600;
+}
+
+.otherDetailsContainer {
+  color: white;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailsTitle {
+  font-weight: 300;
+  margin: 0 0.4em;
+}
+.detailsTime {
+  font-weight: 500;
+}
+
+.divider {
+  margin: 0 0.6em;
+}
